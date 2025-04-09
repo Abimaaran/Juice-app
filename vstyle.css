@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+    
+.navbar {
+    padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: #f7941d; 
+        width: 100%;
+
+}
+
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.juice-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.juice-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 220px;
+    text-align: left;
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.juice-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.juice-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.juice-card h4 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.juice-card .see-more {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.juice-card .ingredients {
+    display: none;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    animation: fadeIn 0.5s ease-in-out;
+}
+#admin{
+    max-height: 50px;
+
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+}

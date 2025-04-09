@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.admin-container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #dde4e9;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.logout-button {
+    background-color: #2093e6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    background-color: #0d7bcc;
+    color: white;
+}
+
+.section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 65px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2093e6;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="number"], 
+.form-group input[type="file"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    background-color: #2093e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-group button:hover {
+    background-color: #0d7bcc;
+}
+
+.action-buttons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2093e6;
+    cursor: pointer;
+}
+
+.action-buttons form {
+    display: inline-block;
+}
+
+.action-buttons form button {
+    background: none;
+    border: none;
+    color: #2093e6;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+}
+
+.action-buttons form button:hover {
+    text-decoration: underline;
+}
